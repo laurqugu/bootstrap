@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css"></link>
+    <!-- endbuild -->
+
+    <title>Crocheteria</title>
+  </head>
+  <body class="text-white bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">Crocheteria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#">Cursos</a></li>
+                <li class="nav-item"><a class="nav-link" href="terms-and-conditions.html">Términos y Condiciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+        
+    <div class="jumbotron">
+        <h1 class="display-4">Crocheteria</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Cursos</li>
+            </ol>
+        </nav>
+        <ul class="nav nav-tabs" id="myTab" role="tabList">
+            <li class="nav-item">
+                <a class="nav-link active" id="prices-tab" data-toggle="tab" href="#prices" role="tab" aria-controls="prices" aria-selected="true">
+                    Precios
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false">
+                    Medios de Pago
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="observaciones-tab" data-toggle="tab" href="#observaciones" role="tab" aria-controls="observaciones" aria-selected="false">
+                    Observaciones
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="prices" role="tabpanel" aria-labelledby="prices-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calificación</th>
+                            <th>Duración</th>
+                            <th>Trapillo</th>
+                            <th>Tapestry</th>
+                            <th>Macramé</th>
+                            <th>Bordado</th>
+                            <th>Bisuteria</th>
+                        </thead>
+                        <tbody class="text-white">
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>3h 5m</td>
+                                <td>12000</td>
+                                <td>7500</td>
+                                <td>5000</td>
+                                <td>11000</td>
+                                <td>9000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>2h 30m</td>
+                                <td>35000</td>
+                                <td>2000</td>
+                                <td>4500</td>
+                                <td>7000</td>
+                                <td>35000</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                </td>
+                                <td>3h 50m</td>
+                                <td>15000</td>
+                                <td>4000</td>
+                                <td>23000</td>
+                                <td>10000</td>
+                                <td>85000</td>
+                            </tr>
+                        </tbody>
+                    </table>  
+                </div>             
+            </div>
+            <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+
+                <div class="accordion" id="accordionPayment">
+                    <div class="card bg-dark">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="nb-0">
+                                <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapsePse" aria-expanded="true" aria-controls="collsapsePse">
+                                    Pse
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapsePse" class="collapse" aria-labelledby="headingOne" data-parent="#accordionPayment">
+                            <div class="card-body">
+                                <img class="card-img payments" src="images/PSE.png">                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="nb-0">
+                                <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseTc" aria-expanded="true" aria-controls="collsapseTc">
+                                    Tarjetas de crédito
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTc" class="collapse" aria-labelledby="headingOne" data-parent="#accordionPayment">
+                            <div class="card-body">
+                                <img class="card-img payments" src="images/tc.png">                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="nb-0">
+                                <button class="btn btn-link text-white" type="button" data-toggle="collapse" data-target="#collapseEfectivo" aria-expanded="true" aria-controls="collsapseEfectivo">
+                                    Efectivo
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEfectivo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionPayment">
+                            <div class="card-body">
+                                Pago en el puesto de atención mas cercano.                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="observaciones" role="tabpanel" aria-labelledby="observaciones-tab">
+                <div class="input-group">
+                    <label class="input-group-text bg-dark text-white" for="comentario">Comentario</label>                         
+                </div>
+                <textarea id="comentario" class="input-group-text" rows="2" cols="120"></textarea>   
+            </div>
+        </div>
+        
+          
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.twitter.com">Twitter</a>
+                <a href="https://www.instagam.com">Instagram</a>
+                <a href="https://www.google.com">Google +</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <h3>Oficina Central</h3>
+                    <p>Medellin, Antioquia, Colombia</p>
+                    <p>+573000001122</p>
+                    <p>contacto@crocheteria.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="about.html">Nosotros</a>
+                <a href="prices.html">Cursos</a>
+                <a href="terms-and-conditions.html">Terminos y condiciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

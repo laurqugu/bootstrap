@@ -1,0 +1,43 @@
+$black: black;
+
+@mixin margin($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    background-color: $black;
+    color:white;
+    @include margin(50px, 0px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+}
+
+footer {
+    padding: 7px 7px 0 7px;
+    background-color: $black;
+    color: white;
+    font-size: small;
+    @include margin(0px, 10px);
+}
+
+.card-tejido {
+    flex: 1 250px;
+    @include margin(10px, 0px);
+}
+
+.btn-ver-mas {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.footer-address-icon{
+    padding-right: 10px;
+}
+
+.terms {
+    text-align: justify;
+}
+
+.payments {
+    width: 269px;
+}
